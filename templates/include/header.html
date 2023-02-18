@@ -11,7 +11,12 @@
   <body>
     <nav class="main-nav">
       <ul class="nav-list">
-        <li class="nav-item"><a href="{% url 'sms:index' %}">SecretMS</a></li>
+        <li class="nav-items">
+          <a class="nav-item" href="{% url 'sms:index' %}">SecretMS</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-item" href="{% url 'sms:index' %}">Home</a>
+        </li>
       </ul>
     </nav>
     {% block nav_block %} {% endblock %} {% block body_block %} {% endblock %}

@@ -9,6 +9,29 @@ body{
     margin: 0;
 }
 
-h1{
-    color: blueviolet;
+/* nav bar */
+
+.main-nav{
+    margin: 0;
+    padding: 1rem 1rem;
+    background-color: #332C39;
 }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    list-style: none;
+    gap: 10rem;
+}
+
+
+.nav-item { 
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+
+}
+
+
