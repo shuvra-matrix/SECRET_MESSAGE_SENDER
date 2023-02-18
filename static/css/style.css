@@ -7,6 +7,8 @@
 body{
     padding: 0;
     margin: 0;
+   background-color: #171718;
+   height: 100vh;
 }
 
 /* nav bar */
@@ -14,7 +16,7 @@ body{
 .main-nav{
     margin: 0;
     padding: 1rem 1rem;
-    background-color: #332C39;
+    background-color: #171718;
 }
 
 .nav-list {
@@ -35,3 +37,24 @@ body{
 }
 
 
+/* PUBLIC INDEX PAGE */
+
+.main-div {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 3rem;
+}
+
+.sub-div{
+    border: 2px solid #e81747;
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding: 2rem ;
+    border-radius: 8px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
