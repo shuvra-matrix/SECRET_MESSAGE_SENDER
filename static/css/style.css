@@ -7,7 +7,7 @@
 body{
     padding: 0;
     margin: 0;
-   background-color: #171718;
+   background-color: #6F1AB6;
    height: 100vh;
 }
 
@@ -16,7 +16,7 @@ body{
 .main-nav{
     margin: 0;
     padding: 1rem 1rem;
-    background-color: #171718;
+    background-color: #3D1766;
 }
 
 .nav-list {
@@ -25,7 +25,7 @@ body{
     align-items: center;
     flex-flow: row wrap;
     list-style: none;
-    gap: 10rem;
+    gap: 5rem;
 }
 
 
@@ -36,6 +36,15 @@ body{
 
 }
 
+li.nav-list-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+
 
 /* PUBLIC INDEX PAGE */
 
@@ -45,16 +54,42 @@ body{
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    gap: 3rem;
 }
 
 .sub-div{
+    margin-top: 2rem;
+    background-color: #EB455F;
     border: 2px solid #e81747;
-    width: 300px;
+    width: 30%;
+    min-height: 40%;
     color: white;
     text-align: center;
     padding: 2rem ;
     border-radius: 8px;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bold;
+}
+
+.from-div{
+    display: flex;
+    justify-content: flex-start;
+   
+    flex-flow: column nowrap;
+}
+.name-lable{
+    text-align: left;
+    margin: 1rem 1rem 1rem 0;
+}
+.name-input{
+    width: 100%;
+}
+
+.name-button{
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: #e81747;
+    font-size: 1rem;
+    color: white;
+
 }
